@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>TypeScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-inline">
+        <input
+          type="number"
+          class="form-control mb-2 mr-sm-2"
+          id="x"
+          value="42"
+          autofocus
+        />
+        <input
+          type="number"
+          class="form-control mb-2 mr-sm-2"
+          id="y"
+          value="7"
+        />
+      </div>
+      <div class="btn-group">
+        <button id="add" class="btn btn-primary">+</button>
+        <button id="subtract" class="btn btn-primary">-</button>
+        <button id="multiply" class="btn btn-primary">*</button>
+        <button id="divide" class="btn btn-primary">/</button>
+      </div>
+      <div>
+        Result:
+        <var id="result"></var>
+      </div>
+    </div>
+
+    <script src="./calculator.js"></script>
+  </body>
+</html>
