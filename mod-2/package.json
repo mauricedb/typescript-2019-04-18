@@ -1,0 +1,22 @@
+{
+  "name": "mod-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "live-server ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Maurice de Beijer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jquery": "^3.3.29",
+    "live-server": "^1.2.1",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "jquery": "^3.4.0"
+  }
+}
